@@ -1,16 +1,6 @@
 // 21. Reemplazar todas las ocurrencias de una palabra
-cadena = prompt("Ingresa una frase");
-original = prompt("Palabra a reemplazar");
-nuevo = prompt("Nueva palabra");
-const reemplazarTodas = (cadena, original, nuevo) => cadena.replaceAll(original, nuevo);
-console.log(reemplazarTodas(cadena, original, nuevo));
-
-// 21. Reemplazar todas las ocurrencias de una palabra
-function reemplazarTodas(cadena, original, nuevo) {
-    return cadena.replaceAll(original, nuevo);
-}
-cadena = prompt("Ingresa una frase");
-original = prompt("Palabra a reemplazar");
-nuevo = prompt("Nueva palabra");
-console.log(reemplazarTodas(cadena, original, nuevo));
-
+cadena21 = prompt("Ingresa una frase");
+original21 = prompt("Palabra a reemplazar");
+nuevo21 = prompt("Nueva palabra");
+const reemplazarTodas = (cadena21, original21, nuevo21) => cadena21.replaceAll(original21, nuevo21);
+console.log(reemplazarTodas(cadena21, original21, nuevo21));

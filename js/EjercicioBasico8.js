@@ -1,16 +1,6 @@
 // 8. Extraer una parte de una cadena
-cadena = prompt("Ingresa una palabra");
-let inicio = prompt("Posición inicial");
-let fin = prompt("Posición final");
-const extraerParte = (cadena, inicio, fin) => cadena.substring(inicio, fin);
-console.log(extraerParte(cadena, inicio, fin));
-
-// 8. Extraer una parte de una cadena
-function extraerParte(cadena, inicio, fin) {
-    return cadena.substring(inicio, fin);
-}
-cadena = prompt("Ingresa una palabra");
-let inicio1 = prompt("Posición inicial");
-let fin1 = prompt("Posición final");
-console.log(extraerParte(cadena, inicio1, fin1));
-
+cadena08 = prompt("Ingresa una palabra");
+let inicio08 = prompt("Posición inicial");
+let fin08 = prompt("Posición final");
+const extraerParte = (cadena08, inicio08, fin08) => cadena08.substring(inicio08, fin08);
+console.log(extraerParte(cadena08, inicio08, fin08));
